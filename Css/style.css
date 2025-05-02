@@ -216,7 +216,17 @@ body {
 .hero-action-btn-container .or {
   color: var(--secondary-text-color);
 }
-.hero-img-container,
+.hero-img-container{
+   min-width: 30rem;
+  min-height: 30rem;
+  position: relative;
+  transform: scale(0.8) translateY(1rem);
+  -webkit-transform: scale(0.8) translateY(1rem);
+  -moz-transform: scale(0.8) translateY(1rem);
+  -ms-transform: scale(0.8) translateY(1rem);
+  -o-transform: scale(0.8) translateY(1rem);
+}
+  
 .food-image-container,
 .download-app-image-container {
   min-width: 30rem;
